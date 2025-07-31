@@ -52,3 +52,9 @@ This project implements an interactive Three.js scene with post-processing effec
 
 - **Repository**: https://github.com/fdgbatarse1/webgl-03
 - **Live Demo**: https://webgl-03.vercel.app/
+
+## 🅭 Credits
+
+"Golden Snitch #SGP29" (https://skfb.ly/KnuR) by JuanG3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Nimbus 2000" (https://skfb.ly/6ZPTT) by Alizée BOURBON is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
