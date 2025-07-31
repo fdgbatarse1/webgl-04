@@ -1,19 +1,20 @@
-# WebGL Homework 03 - Interactive 3D Scene with Post-Processing
+# WebGL Homework 04 - Interactive 3D Scene with Slider Control
 
 ## 📹 Demo Video
 
-[![Watch the video](/public/images/hand.png)](https://www.loom.com/share/56fc139634b34998807de1084144dd50)
+[![Watch the video](/public/images/snitch.png)](https://www.loom.com/share/cff128ac81f94ea7bc197c2d438eb963?sid=4346f3dc-7d47-425d-97d8-40136ab8eb4c)
 
 ## 📋 Summary
 
-This project implements an interactive Three.js scene with post-processing effects and advanced lighting for the WebGL homework assignment:
+This project implements a Three.js scene controlled by a smooth scroll-based slider system for the WebGL homework assignment:
 
-- **Interactive 3D Scene** - Click/touch the hand to trigger visual effects and animations
-- **3D Model Loading** - Animated hand model with grab animations
-- **HDR Environment Lighting** - Realistic lighting using HDR environment maps
-- **Advanced Post-Processing** - Depth of field, bloom, and hue/saturation effects that respond to interactions
-- **Optimized Shadow System** - PCF soft shadows with proper shadow mapping
-- **Performance Monitoring** - Stats.js integration for performance tracking
+- **Smooth Slider Control** - Scroll/touch interactions drive scene animations with lerp-based smoothing
+- **Multi-dimensional Animation** - Slider controls position, scale, floating motion, and camera orbiting simultaneously
+- **Advanced Easing** - Uses MathUtils.smoothstep and custom timing for refined motion curves
+- **3D Model Loading** - Animated Golden Snitch model with dynamic scaling and positioning
+- **HDR Environment Lighting** - Realistic PBR materials with environment mapping
+- **Post-Processing Pipeline** - Bloom and FXAA effects with proper render passes
+- **Performance Monitoring** - Stats.js integration with optimized render loop
 
 ## 🚀 How to Run
 
@@ -27,8 +28,8 @@ This project implements an interactive Three.js scene with post-processing effec
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/fdgbatarse1/webgl-03.git
-   cd webgl-03
+   git clone https://github.com/fdgbatarse1/webgl-04.git
+   cd webgl-04
    ```
 
 2. **Install dependencies**
@@ -45,16 +46,14 @@ This project implements an interactive Three.js scene with post-processing effec
 
 4. **Open your browser**
    - Navigate to `http://localhost:5173` (or the URL shown in your terminal)
-   - You should see an animated hand model with realistic HDR lighting and post-processing effects
-   - Click or touch the hand to trigger interactive visual effects and damage mechanics
+   - You should see an animated Golden Snitch model with realistic HDR lighting and post-processing effects
+   - Scroll with mouse wheel or drag on mobile to control the slider and watch the scene transform smoothly
 
 ## 🔗 Links
 
-- **Repository**: https://github.com/fdgbatarse1/webgl-03
-- **Live Demo**: https://webgl-03.vercel.app/
+- **Repository**: https://github.com/fdgbatarse1/webgl-04
+- **Live Demo**: https://webgl-04.vercel.app/
 
 ## 🅭 Credits
 
 "Golden Snitch #SGP29" (https://skfb.ly/KnuR) by JuanG3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-"Nimbus 2000" (https://skfb.ly/6ZPTT) by Alizée BOURBON is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
